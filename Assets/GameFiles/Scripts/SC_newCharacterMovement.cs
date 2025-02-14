@@ -8,6 +8,8 @@ using UnityEngine.EventSystems;
 public class SC_newCharacterMovement : MonoBehaviour
 {
     public bool isSliding { get; private set; }
+    public bool _isGrabing = false;
+    public Vector3 _grabMovement = Vector3.zero;
 
     #region Variables Serializables
     [Header("Movement Parameters")]
@@ -60,7 +62,6 @@ public class SC_newCharacterMovement : MonoBehaviour
         isSliding = Input.GetKey(KeyCode.LeftShift);
 
         _currentMovementSpeed = isSliding ? _slideSpeed : _walkSpeed;
-        // _currentControllerVelocity = Mathf.Lerp(_currentMovementSpeed, _CharacterController.velocity.magnitude, Time.deltaTime * 10);
 
         float _inputY = canMove ? Input.GetAxisRaw("Vertical") : 0;
 
@@ -91,8 +92,6 @@ public class SC_newCharacterMovement : MonoBehaviour
                 {
                     _currentSpeedMultiplier = Mathf.Lerp(_currentSpeedMultiplier, 1.0f, _slideDrag * Time.deltaTime);
                 }
-
-                //Debug.Log($"Slope: {angle} / Speed Multiplier: {_currentSpeedMultiplier}");
             }
         }
         else if (_moveDirection.magnitude > 0)
@@ -123,7 +122,7 @@ public class SC_newCharacterMovement : MonoBehaviour
                 _moveDirection.y = _jumpPower;
                 transform.LookAt(transform.position - transform.forward);
             }
-            else if (_jumpCount < _airJumps)
+            else if (_jumpCount < _airJumps && !_isGrabing)
             {
                 _airMove = _moveDirection;
                 _moveDirection.y = _jumpPower;
@@ -141,7 +140,10 @@ public class SC_newCharacterMovement : MonoBehaviour
 
         if (!_CharacterController.isGrounded)
         {
-            _moveDirection.y -= _gravity * Time.deltaTime;
+            if (!_isGrabing)
+            { _moveDirection.y -= _gravity * Time.deltaTime; }
+            else 
+            { _moveDirection.y = Mathf.Lerp(_moveDirection.y, 0f, 5f * Time.deltaTime); }
         }
 
         Vector3 _finalGroundedMove = new Vector3(_moveDirection.x, _moveDirection.y, _moveDirection.z) * _currentMovementSpeed;
@@ -153,7 +155,7 @@ public class SC_newCharacterMovement : MonoBehaviour
         Vector3 finalMove = _CharacterController.isGrounded ? _finalGroundedMove : _finalAirMove;
         _smoothMovement = Vector3.Lerp(_smoothMovement, finalMove, _movementSmoothness * Time.deltaTime);
 
-        _CharacterController.Move(_smoothMovement * Time.deltaTime);
+        _CharacterController.Move((_smoothMovement + _grabMovement) * Time.deltaTime);
 
         if (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
         {
