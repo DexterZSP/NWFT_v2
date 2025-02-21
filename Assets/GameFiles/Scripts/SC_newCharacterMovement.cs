@@ -71,6 +71,7 @@ public class SC_newCharacterMovement : MonoBehaviour
 
         _moveDirection = (_viewDir * _inputY + _right * _inputX).normalized;
 
+
         // Alteramos la velocidad según el ángulo de la rampa si se está deslizando
         if (isSliding && _moveDirection.magnitude > 0)
         {
@@ -94,14 +95,14 @@ public class SC_newCharacterMovement : MonoBehaviour
                 }
             }
         }
-        else if (_moveDirection.magnitude > 0)
+        else 
         {
-            _currentSpeedMultiplier = Mathf.Lerp(_currentSpeedMultiplier, 1.0f, _slideDrag * 2f * Time.deltaTime);
+            if (_moveDirection.magnitude > 0)
+            { _currentSpeedMultiplier = Mathf.Lerp(_currentSpeedMultiplier, 1.0f, _slideDrag * 2f * Time.deltaTime); }
+            else
+            { _currentSpeedMultiplier = 1; }
         }
-        else
-        {
-            _currentSpeedMultiplier = 1;
-        }
+        
 
         _currentMovementSpeed *= _currentSpeedMultiplier;
         #endregion
