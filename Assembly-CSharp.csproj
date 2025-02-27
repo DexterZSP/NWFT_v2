@@ -65,6 +65,7 @@
     <Compile Include="Assets\GameFiles\Scripts\SC_CharacterMovement.cs" />
     <Compile Include="Assets\GameFiles\Scripts\SC_newCharacterMovement.cs" />
     <Compile Include="Assets\GameFiles\Scripts\SC_CameraArm.cs" />
+    <Compile Include="Assets\GameFiles\Scripts\SC_FightManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

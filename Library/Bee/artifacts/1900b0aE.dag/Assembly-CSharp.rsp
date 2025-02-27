@@ -358,6 +358,7 @@
 "Assets/GameFiles/Scripts/SC_AnimationManager.cs"
 "Assets/GameFiles/Scripts/SC_CameraArm.cs"
 "Assets/GameFiles/Scripts/SC_CharacterMovement.cs"
+"Assets/GameFiles/Scripts/SC_FightManager.cs"
 "Assets/GameFiles/Scripts/SC_GraplingHook.cs"
 "Assets/GameFiles/Scripts/SC_newCharacterMovement.cs"
 -langversion:9.0
