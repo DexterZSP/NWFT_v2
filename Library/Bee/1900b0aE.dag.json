@@ -386,8 +386,13 @@
       "DisplayName": "Writing UnityEngine.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
+<<<<<<< Updated upstream
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -398,7 +403,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 239,
+=======
+      "PayloadOffset": 247,
+>>>>>>> Stashed changes
       "PayloadLength": 44405,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -411,9 +420,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 44738,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 44746,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2249,7 +2264,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 44893,
+=======
+      "PayloadOffset": 44909,
+>>>>>>> Stashed changes
       "PayloadLength": 7355,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -2450,9 +2469,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 52353,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 52369,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2463,7 +2488,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 52477,
+=======
+      "PayloadOffset": 52501,
+>>>>>>> Stashed changes
       "PayloadLength": 38917,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -2476,9 +2505,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 91480,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 91504,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2"
@@ -2917,7 +2952,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 91627,
+=======
+      "PayloadOffset": 91659,
+>>>>>>> Stashed changes
       "PayloadLength": 7893,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -3130,9 +3169,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 99633,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 99665,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3143,7 +3188,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 99765,
+=======
+      "PayloadOffset": 99805,
+>>>>>>> Stashed changes
       "PayloadLength": 50465,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -3156,9 +3205,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 150324,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 150364,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -3616,7 +3671,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 150479,
+=======
+      "PayloadOffset": 150527,
+>>>>>>> Stashed changes
       "PayloadLength": 7521,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -3821,9 +3880,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 158105,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 158153,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -3834,7 +3899,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp",
       "DisplayName": "Writing UnityEditor.UI.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 158229,
+=======
+      "PayloadOffset": 158285,
+>>>>>>> Stashed changes
       "PayloadLength": 36031,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -3847,9 +3916,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2",
       "DisplayName": "Writing UnityEditor.UI.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 194346,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 194402,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2"
@@ -4197,7 +4272,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 194493,
+=======
+      "PayloadOffset": 194557,
+>>>>>>> Stashed changes
       "PayloadLength": 8219,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -4418,9 +4497,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 202832,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 202896,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
@@ -4431,7 +4516,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 202971,
+=======
+      "PayloadOffset": 203043,
+>>>>>>> Stashed changes
       "PayloadLength": 33485,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -4444,9 +4533,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp2",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 236557,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 236629,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp2"
@@ -4745,7 +4840,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 236719,
+=======
+      "PayloadOffset": 236799,
+>>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -4968,9 +5067,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 245122,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 245202,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.UnityAdditionalFile.txt"
@@ -4981,7 +5086,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp",
       "DisplayName": "Writing Unity.InputSystem.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 245249,
+=======
+      "PayloadOffset": 245337,
+>>>>>>> Stashed changes
       "PayloadLength": 69051,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -4994,9 +5103,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp2",
       "DisplayName": "Writing Unity.InputSystem.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 314389,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 314477,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp2"
@@ -5635,7 +5750,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 314539,
+=======
+      "PayloadOffset": 314635,
+>>>>>>> Stashed changes
       "PayloadLength": 8045,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -5852,9 +5971,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 322716,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 322812,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
@@ -5865,7 +5990,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 322867,
+=======
+      "PayloadOffset": 322971,
+>>>>>>> Stashed changes
       "PayloadLength": 36229,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -5878,9 +6007,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 359209,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 359313,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2"
@@ -6190,7 +6325,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 359383,
+=======
+      "PayloadOffset": 359495,
+>>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -6413,9 +6552,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 367792,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 367904,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -6426,7 +6571,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 367925,
+=======
+      "PayloadOffset": 368045,
+>>>>>>> Stashed changes
       "PayloadLength": 62416,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -6439,9 +6588,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp2",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 430436,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 430556,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp2"
@@ -7027,7 +7182,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 430592,
+=======
+      "PayloadOffset": 430720,
+>>>>>>> Stashed changes
       "PayloadLength": 7844,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -7240,9 +7399,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Rider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 438545,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 438673,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -7253,7 +7418,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 438673,
+=======
+      "PayloadOffset": 438809,
+>>>>>>> Stashed changes
       "PayloadLength": 35891,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -7266,9 +7435,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2",
       "DisplayName": "Writing Unity.Rider.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 474654,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 474790,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -7577,7 +7752,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 474805,
+=======
+      "PayloadOffset": 474949,
+>>>>>>> Stashed changes
       "PayloadLength": 7757,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -7788,9 +7967,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Settings.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 482674,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 482818,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
@@ -7801,7 +7986,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 482805,
+=======
+      "PayloadOffset": 482957,
+>>>>>>> Stashed changes
       "PayloadLength": 34192,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -7814,9 +8003,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp2",
       "DisplayName": "Writing Unity.Settings.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 517090,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 517242,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp2"
@@ -8106,7 +8301,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 517244,
+=======
+      "PayloadOffset": 517404,
+>>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -8329,9 +8528,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 525681,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 525841,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
@@ -8342,7 +8547,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 525842,
+=======
+      "PayloadOffset": 526010,
+>>>>>>> Stashed changes
       "PayloadLength": 34951,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -8355,9 +8564,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 560916,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 561084,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
@@ -8649,7 +8864,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 561100,
+=======
+      "PayloadOffset": 561276,
+>>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -8872,9 +9091,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 569547,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 569723,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
@@ -8885,7 +9110,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 569718,
+=======
+      "PayloadOffset": 569902,
+>>>>>>> Stashed changes
       "PayloadLength": 33735,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -8898,9 +9127,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 603586,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 603770,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
@@ -9181,7 +9416,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 603780,
+=======
+      "PayloadOffset": 603972,
+>>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -9404,9 +9643,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 612183,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 612375,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -9417,7 +9662,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 612310,
+=======
+      "PayloadOffset": 612510,
+>>>>>>> Stashed changes
       "PayloadLength": 37006,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -9430,9 +9679,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 649405,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 649605,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -9759,7 +10014,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 649555,
+=======
+      "PayloadOffset": 649763,
+>>>>>>> Stashed changes
       "PayloadLength": 8045,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -9976,9 +10235,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 657705,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 657913,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -9989,7 +10254,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 657829,
+=======
+      "PayloadOffset": 658045,
+>>>>>>> Stashed changes
       "PayloadLength": 38075,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -10002,9 +10271,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 695990,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 696206,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2"
@@ -10345,7 +10620,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 696137,
+=======
+      "PayloadOffset": 696361,
+>>>>>>> Stashed changes
       "PayloadLength": 8045,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -10562,9 +10841,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 704292,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 704516,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -10575,7 +10860,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 704421,
+=======
+      "PayloadOffset": 704653,
+>>>>>>> Stashed changes
       "PayloadLength": 33845,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -10588,9 +10877,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 738357,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 738589,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2"
@@ -10875,7 +11170,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 738509,
+=======
+      "PayloadOffset": 738749,
+>>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -11098,9 +11397,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 746920,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 747160,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -11111,7 +11416,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 747055,
+=======
+      "PayloadOffset": 747303,
+>>>>>>> Stashed changes
       "PayloadLength": 36174,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -11124,9 +11433,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 783326,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 783574,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -11440,7 +11755,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 783484,
+=======
+      "PayloadOffset": 783740,
+>>>>>>> Stashed changes
       "PayloadLength": 7757,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -11651,9 +11970,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.CollabProxy.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 791356,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 791612,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -11664,7 +11989,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp",
       "DisplayName": "Writing Unity.CollabProxy.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 791490,
+=======
+      "PayloadOffset": 791754,
+>>>>>>> Stashed changes
       "PayloadLength": 33271,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -11677,9 +12006,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp2",
       "DisplayName": "Writing Unity.CollabProxy.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 824857,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 825121,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp2"
@@ -11977,7 +12312,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.CollabProxy.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 825014,
+=======
+      "PayloadOffset": 825286,
+>>>>>>> Stashed changes
       "PayloadLength": 8380,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -12202,9 +12541,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.ForUI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 833508,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 833780,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.UnityAdditionalFile.txt"
@@ -12215,7 +12560,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp",
       "DisplayName": "Writing Unity.InputSystem.ForUI.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 833641,
+=======
+      "PayloadOffset": 833921,
+>>>>>>> Stashed changes
       "PayloadLength": 32116,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -12228,9 +12577,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp2",
       "DisplayName": "Writing Unity.InputSystem.ForUI.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 865852,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 866132,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp2"
@@ -12520,7 +12875,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.ForUI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 866008,
+=======
+      "PayloadOffset": 866296,
+>>>>>>> Stashed changes
       "PayloadLength": 8124,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -12739,9 +13098,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 874254,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 874542,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.UnityAdditionalFile.txt"
@@ -12752,7 +13117,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 874395,
+=======
+      "PayloadOffset": 874691,
+>>>>>>> Stashed changes
       "PayloadLength": 31251,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -12765,9 +13134,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp2",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 905749,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 906045,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp2"
@@ -13035,7 +13410,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 905913,
+=======
+      "PayloadOffset": 906217,
+>>>>>>> Stashed changes
       "PayloadLength": 7580,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -13242,9 +13621,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 913619,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 913923,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
@@ -13255,7 +13640,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 913764,
+=======
+      "PayloadOffset": 914076,
+>>>>>>> Stashed changes
       "PayloadLength": 37529,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -13268,9 +13657,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 951400,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 951712,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2"
@@ -13648,7 +14043,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 951568,
+=======
+      "PayloadOffset": 951888,
+>>>>>>> Stashed changes
       "PayloadLength": 8076,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -13865,9 +14264,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 959759,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 960079,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -13878,7 +14283,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 959893,
+=======
+      "PayloadOffset": 960221,
+>>>>>>> Stashed changes
       "PayloadLength": 37599,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -13891,9 +14300,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 997588,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 997916,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -14238,7 +14653,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 997745,
+=======
+      "PayloadOffset": 998081,
+>>>>>>> Stashed changes
       "PayloadLength": 8374,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -14463,9 +14882,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1006231,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1006567,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -14476,7 +14901,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1006362,
+=======
+      "PayloadOffset": 1006706,
+>>>>>>> Stashed changes
       "PayloadLength": 57214,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -14489,9 +14918,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1063669,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1064013,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2"
@@ -15060,7 +15495,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1063823,
+=======
+      "PayloadOffset": 1064175,
+>>>>>>> Stashed changes
       "PayloadLength": 8371,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -15285,9 +15724,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1072311,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1072663,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -15298,7 +15743,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1072447,
+=======
+      "PayloadOffset": 1072807,
+>>>>>>> Stashed changes
       "PayloadLength": 85723,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -15311,9 +15760,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1158268,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1158628,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2"
@@ -16012,7 +16467,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1158427,
+=======
+      "PayloadOffset": 1158795,
+>>>>>>> Stashed changes
       "PayloadLength": 8124,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -16231,9 +16690,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1166675,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1167043,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -16244,7 +16709,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1166818,
+=======
+      "PayloadOffset": 1167194,
+>>>>>>> Stashed changes
       "PayloadLength": 89682,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -16257,9 +16726,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1256605,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1256981,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2"
@@ -17026,7 +17501,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1256771,
+=======
+      "PayloadOffset": 1257155,
+>>>>>>> Stashed changes
       "PayloadLength": 8383,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -17251,9 +17730,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1265271,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1265655,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -17264,7 +17749,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1265407,
+=======
+      "PayloadOffset": 1265799,
+>>>>>>> Stashed changes
       "PayloadLength": 81077,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -17277,9 +17766,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1346582,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1346974,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2"
@@ -17953,7 +18448,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1346741,
+=======
+      "PayloadOffset": 1347141,
+>>>>>>> Stashed changes
       "PayloadLength": 8212,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -18174,9 +18673,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1355077,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1355477,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -18187,7 +18692,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1355220,
+=======
+      "PayloadOffset": 1355628,
+>>>>>>> Stashed changes
       "PayloadLength": 53693,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -18200,9 +18709,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1409018,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1409426,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2"
@@ -18692,7 +19207,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1409184,
+=======
+      "PayloadOffset": 1409600,
+>>>>>>> Stashed changes
       "PayloadLength": 8645,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -18923,9 +19442,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1417947,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1418363,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -18936,7 +19461,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1418084,
+=======
+      "PayloadOffset": 1418508,
+>>>>>>> Stashed changes
       "PayloadLength": 35252,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -18949,9 +19478,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1453435,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1453859,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2"
@@ -19254,7 +19789,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1453595,
+=======
+      "PayloadOffset": 1454027,
+>>>>>>> Stashed changes
       "PayloadLength": 8221,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -19475,9 +20014,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1461952,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1462384,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -19488,7 +20033,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1462107,
+=======
+      "PayloadOffset": 1462547,
+>>>>>>> Stashed changes
       "PayloadLength": 34745,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -19501,9 +20050,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1496969,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1497409,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2"
@@ -19836,7 +20391,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1497147,
+=======
+      "PayloadOffset": 1497595,
+>>>>>>> Stashed changes
       "PayloadLength": 8750,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -20069,9 +20628,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1506022,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1506470,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -20082,7 +20647,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1506166,
+=======
+      "PayloadOffset": 1506622,
+>>>>>>> Stashed changes
       "PayloadLength": 41514,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -20095,9 +20664,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1547786,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1548242,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2"
@@ -20452,7 +21027,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1547953,
+=======
+      "PayloadOffset": 1548417,
+>>>>>>> Stashed changes
       "PayloadLength": 8750,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -20685,9 +21264,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1556829,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1557293,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -20698,7 +21283,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1556974,
+=======
+      "PayloadOffset": 1557446,
+>>>>>>> Stashed changes
       "PayloadLength": 33726,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -20711,9 +21300,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1590807,
       "PayloadLength": 52,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\dexte\\Docum",
+=======
+      "PayloadOffset": 1591279,
+      "PayloadLength": 60,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\pablo_xl4ta",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2"
@@ -21021,7 +21616,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1590975,
+=======
+      "PayloadOffset": 1591455,
+>>>>>>> Stashed changes
       "PayloadLength": 8846,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -21256,9 +21855,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1599927,
       "PayloadLength": 39,
       "PayloadDebugContentSnippet": "C:\\Users\\dexte\\Documents\\GitHu",
+=======
+      "PayloadOffset": 1600407,
+      "PayloadLength": 47,
+      "PayloadDebugContentSnippet": "C:\\Users\\pablo_xl4tahc\\Documen",
+>>>>>>> Stashed changes
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -21269,7 +21874,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1600052,
+=======
+      "PayloadOffset": 1600540,
+>>>>>>> Stashed changes
       "PayloadLength": 32815,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
@@ -21282,7 +21891,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1632954,
+=======
+      "PayloadOffset": 1633442,
+>>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -21791,7 +22404,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1633050,
+=======
+      "PayloadOffset": 1633538,
+>>>>>>> Stashed changes
       "PayloadLength": 9530,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -22969,7 +23586,11 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+<<<<<<< Updated upstream
       "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+=======
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"C:\\Users\\pablo_xl4tahc\\Documents\\GitHub\\NWFT_v2\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+>>>>>>> Stashed changes
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -23270,6 +23891,10 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
+<<<<<<< Updated upstream
   "PayloadsFile": "C:/Users/dexte/Documents/GitHub/NWFT_v2/Library/Bee/1900b0aE.dag.payloads",
+=======
+  "PayloadsFile": "C:/Users/pablo_xl4tahc/Documents/GitHub/NWFT_v2/Library/Bee/1900b0aE.dag.payloads",
+>>>>>>> Stashed changes
   "RelativePathToRoot": "../.."
 }
