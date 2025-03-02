@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\sc_fightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\sc_fightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\player\\sc_player_movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\player\\sc_player_movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\sc_newcharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\sc_newcharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\sc_graplinghook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\sc_graplinghook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\sc_animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\sc_animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\legacy\\sc_newcharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\legacy\\sc_newcharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SC_FightManager.cs",
-              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\SC_FightManager.cs",
-              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\SC_FightManager.cs",
-              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\SC_FightManager.cs",
-              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\SC_FightManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T09:17:03.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SC_GraplingHook.cs",
-              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\SC_GraplingHook.cs",
-              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\SC_GraplingHook.cs",
-              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\SC_GraplingHook.cs",
-              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\SC_GraplingHook.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwC0AAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T16:59:17.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SC_AnimationManager.cs",
-              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\SC_AnimationManager.cs",
-              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\SC_AnimationManager.cs",
-              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\SC_AnimationManager.cs",
-              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\SC_AnimationManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T21:10:22.354Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SC_newCharacterMovement.cs",
-              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\SC_newCharacterMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\SC_newCharacterMovement.cs",
-              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\SC_newCharacterMovement.cs",
-              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\SC_newCharacterMovement.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAkwF0AAAB1AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_newCharacterMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Legacy\\SC_newCharacterMovement.cs",
+              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_newCharacterMovement.cs",
+              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\Legacy\\SC_newCharacterMovement.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T21:05:32.575Z",
+              "WhenOpened": "2025-03-02T14:02:01.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SC_Player_MovementController.cs",
+              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
+              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
+              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
+              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T12:38:38.916Z",
               "EditorCaption": ""
             }
           ]
