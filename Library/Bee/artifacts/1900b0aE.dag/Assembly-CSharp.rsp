@@ -363,6 +363,14 @@
 "Assets/GameFiles/Scripts/Legacy/SC_GraplingHook.cs"
 "Assets/GameFiles/Scripts/Legacy/SC_newCharacterMovement.cs"
 "Assets/GameFiles/Scripts/Player/SC_Player_MovementController.cs"
+"Assets/GameFiles/Scripts/StateMachine/SC_PlayerStateFactory.cs"
+"Assets/GameFiles/Scripts/StateMachine/SC_PlayerStateMachine.cs"
+"Assets/GameFiles/Scripts/StateMachine/States/PlayerBaseState.cs"
+"Assets/GameFiles/Scripts/StateMachine/States/PlayerGroundedState.cs"
+"Assets/GameFiles/Scripts/StateMachine/States/PlayerIdleState.cs"
+"Assets/GameFiles/Scripts/StateMachine/States/PlayerJumpState.cs"
+"Assets/GameFiles/Scripts/StateMachine/States/PlayerRunState.cs"
+"Assets/GameFiles/Scripts/StateMachine/States/PlayerSlideState.cs"
 -langversion:9.0
 /deterministic
 /optimize+

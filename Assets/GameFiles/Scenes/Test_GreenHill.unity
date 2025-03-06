@@ -1432,14 +1432,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6930957838866336130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a1ae9e8bd7010f4e8a2a6436d1a4aee, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c951da9b0ed51840ab9b3369a4cd7ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 53903679704491962}
   animator: {fileID: 5193188762603131175}
-  jumpPower: 2.5
-  gravity: -8
-  speed: 15
+  jumpPower: 0
+  gravity: -9.81
+  speed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
