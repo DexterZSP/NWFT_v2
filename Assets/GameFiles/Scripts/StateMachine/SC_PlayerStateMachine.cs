@@ -8,6 +8,7 @@ public class SC_PlayerStateMachine : MonoBehaviour
 {
     PlayerInput playerInput;
     [SerializeField] CharacterController characterController;
+    public CharacterController CharController { get { return characterController; } }
 
     [SerializeField] Animator animator;
     int isWalkingHash;
@@ -15,14 +16,21 @@ public class SC_PlayerStateMachine : MonoBehaviour
     int isJumpingHash;
 
     PlayerBaseState currentState;
+    SC_PlayerStateFactory states;
+
+    public PlayerBaseState CurrentState { get { return currentState; } set { currentState = value; } }
 
     Transform _CameraTransform;
     Vector2 currentMovementInput;
     Vector3 currentMovement;
     Vector3 appliedMovement;
+    public Vector3 CurrentMovement { get { return currentMovement; } }
+    public Vector3 AppliedMovement { get { return appliedMovement; } set { appliedMovement = value; } }
+
     bool movementPressed;
     bool slidePressed;
     bool jumpPressed = false;
+    public bool IsJumpPressed { get { return jumpPressed; } }
 
     public float jumpPower;
     public float gravity = -9.81f;
@@ -38,6 +46,9 @@ public class SC_PlayerStateMachine : MonoBehaviour
 
         playerInput = new PlayerInput();
         characterController = GetComponent<CharacterController>();
+        states = new SC_PlayerStateFactory(this);
+        currentState = states.Grounded();
+        currentState.EnterState();
 
         isWalkingHash = Animator.StringToHash("isWalking");
         isSlidingHash = Animator.StringToHash("isSliding");
@@ -76,6 +87,7 @@ public class SC_PlayerStateMachine : MonoBehaviour
 
     void Update()
     {
+        currentState.UpdateStates();
         HandleMoveInput();
         HandleRotation();
         characterController.Move(appliedMovement * speed * Time.deltaTime);

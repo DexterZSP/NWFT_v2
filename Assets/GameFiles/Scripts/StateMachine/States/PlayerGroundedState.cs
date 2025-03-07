@@ -4,14 +4,24 @@ using UnityEngine;
 
 public class PlayerGroundedState : PlayerBaseState
 {
+    public PlayerGroundedState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
+    : base(currentContext, playerStateFactory) 
+    { 
+        isRootState = true; 
+        InitializeSubState();
+    }
+
     public override void CheckSwitchStates()
     {
-        throw new System.NotImplementedException();
+       if(_context.IsJumpPressed == true)
+        {
+            SwitchState(_factory.Jump());
+        }
     }
 
     public override void EnterState()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Grounded");
     }
 
     public override void ExitState()
@@ -26,7 +36,7 @@ public class PlayerGroundedState : PlayerBaseState
 
     public override void UpdateState()
     {
-        throw new System.NotImplementedException();
+        CheckSwitchStates();
     }
 
 }

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Console
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 91
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 130
+  controlID: 44
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -704,7 +704,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GameFiles/Scripts/StateMachine/States
+    - Assets/GameFiles/Scripts/Player
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -721,7 +721,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 80630000
     m_LastClickedID: 25472
-    m_ExpandedIDs: 000000002e62000030620000326200003462000036620000386200003a6200003c620000
+    m_ExpandedIDs: 0000000040620000426200004462000046620000486200004a6200004c6200004e62000050620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -746,21 +746,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 131.40002}
+    scrollPos: {x: 0, y: 35.400024}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000002e6200003062000032620000346200003662000038620000c6620000d8620000e8620000
+    m_ExpandedIDs: ffffffff0000000040620000426200004462000046620000486200004a6200004c6200004e620000dc620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PlayerIdleState
-      m_OriginalName: PlayerIdleState
+      m_Name: SC_PlayerStateFactory
+      m_OriginalName: SC_PlayerStateFactory
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 25328
+      m_UserData: 7080
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -889,23 +889,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 20630000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff3e5d0000
+      m_SelectedIDs: ec5c0000
+      m_LastClickedID: 23788
+      m_ExpandedIDs: 20fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Breathing Idle
-        m_OriginalName: Breathing Idle
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1488
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -1232,9 +1232,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1816629, y: 1.3340808, z: -5.751059}
+    m_Target: {x: 0.75892353, y: 1.1269963, z: -5.9043484}
     speed: 2
-    m_Value: {x: 1.1816629, y: 1.3340808, z: -5.751059}
+    m_Value: {x: 0.75892353, y: 1.1269963, z: -5.9043484}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1280,9 +1280,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.052440915, y: 0.9430036, z: -0.17609216, w: 0.27890992}
+    m_Target: {x: 0.049981102, y: 0.9496601, z: -0.19510528, w: 0.2416452}
     speed: 2
-    m_Value: {x: 0.05241982, y: 0.9426242, z: -0.17602132, w: 0.27879772}
+    m_Value: {x: 0.04996085, y: 0.9492754, z: -0.19502623, w: 0.2415473}
   m_Size:
     m_Target: 3.1038668
     speed: 2

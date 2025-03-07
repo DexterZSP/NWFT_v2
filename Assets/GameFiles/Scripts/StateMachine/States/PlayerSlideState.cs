@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerSlideState : PlayerBaseState
 {
+    public PlayerSlideState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
+    : base(currentContext, playerStateFactory) { }
+
     public override void CheckSwitchStates()
     {
         throw new System.NotImplementedException();

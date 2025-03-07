@@ -4,14 +4,24 @@ using UnityEngine;
 
 public class PlayerJumpState : PlayerBaseState
 {
+    public PlayerJumpState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
+    : base(currentContext, playerStateFactory)
+    {
+        isRootState = true;
+        InitializeSubState();
+    }
+
     public override void CheckSwitchStates()
     {
-        throw new System.NotImplementedException();
+        if (_context.CharController.isGrounded)
+        {
+            SwitchState(_factory.Grounded());
+        }
     }
 
     public override void EnterState()
     {
-        throw new System.NotImplementedException();
+        HandleJump();
     }
 
     public override void ExitState()
@@ -26,6 +36,11 @@ public class PlayerJumpState : PlayerBaseState
 
     public override void UpdateState()
     {
-        throw new System.NotImplementedException();
+        CheckSwitchStates();
+    }
+
+    void HandleJump()
+    {
+
     }
 }
