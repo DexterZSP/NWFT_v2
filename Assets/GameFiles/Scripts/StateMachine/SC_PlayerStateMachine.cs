@@ -1,42 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.Windows;
 using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class SC_PlayerStateMachine : MonoBehaviour
 {
-    PlayerInput playerInput;
-    [SerializeField] CharacterController characterController;
-    public CharacterController CharController { get { return characterController; } }
+    PlayerInput _playerInput;
+    [SerializeField] CharacterController _charController;
+    public CharacterController CharController 
+    { get { return _charController; } }
 
-    [SerializeField] Animator animator;
-    int isWalkingHash;
-    int isSlidingHash;
-    int isJumpingHash;
+    public PlayerBaseState currentState;
+    SC_PlayerStateFactory _states;
 
-    PlayerBaseState currentState;
-    SC_PlayerStateFactory states;
+    Transform _cameraTransform;
+    Vector2 _input;
+    public Vector3 currentMovementInput;
+    public float baseSpeed = 8;
+    public Vector3 velocity;
+    public float currentSpeedMultiplier = 1;
+    public float maxSpeedMultiplier = 5f;
+    public float minSpeedMultiplier = 0.3f;
 
-    public PlayerBaseState CurrentState { get { return currentState; } set { currentState = value; } }
-
-    Transform _CameraTransform;
-    Vector2 currentMovementInput;
-    Vector3 currentMovement;
-    Vector3 appliedMovement;
-    public Vector3 CurrentMovement { get { return currentMovement; } }
-    public Vector3 AppliedMovement { get { return appliedMovement; } set { appliedMovement = value; } }
-
-    bool movementPressed;
-    bool slidePressed;
-    bool jumpPressed = false;
-    public bool IsJumpPressed { get { return jumpPressed; } }
-
-    public float jumpPower;
-    public float gravity = -9.81f;
-
-    [SerializeField] float speed = 5f;
-    float rotationFactorPerFrame = 20f;
+    public bool movementPressed;
+    public bool slidePressed;
+    public bool jumpPressed = false;
+    public bool requireNewJumpPress;
+    public Vector3 airMove;
 
     void Awake()
     {
@@ -44,70 +37,65 @@ public class SC_PlayerStateMachine : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        playerInput = new PlayerInput();
-        characterController = GetComponent<CharacterController>();
-        states = new SC_PlayerStateFactory(this);
-        currentState = states.Grounded();
+        _playerInput = new PlayerInput();
+        _charController = GetComponent<CharacterController>();
+        _states = new SC_PlayerStateFactory(this);
+        currentState = _states.Grounded();
         currentState.EnterState();
 
-        isWalkingHash = Animator.StringToHash("isWalking");
-        isSlidingHash = Animator.StringToHash("isSliding");
-        isJumpingHash = Animator.StringToHash("isJumping");
-
         //vincula la función que se ejecuta al moverse
-        playerInput.PlayerControls.Move.started += onMovementInput;
-        playerInput.PlayerControls.Move.performed += onMovementInput;
-        playerInput.PlayerControls.Move.canceled += onMovementInput;
+        _playerInput.PlayerControls.Move.started += onMovementInput;
+        _playerInput.PlayerControls.Move.performed += onMovementInput;
+        _playerInput.PlayerControls.Move.canceled += onMovementInput;
 
         //vincula a función que se ejecuta al deslizar
-        playerInput.PlayerControls.Slide.performed += onSlide;
-        playerInput.PlayerControls.Slide.canceled += onSlide;
+        _playerInput.PlayerControls.Slide.performed += onSlide;
+        _playerInput.PlayerControls.Slide.canceled += onSlide;
 
-        playerInput.PlayerControls.Jump.started += onJump;
-        playerInput.PlayerControls.Jump.canceled += onJump;
-        _CameraTransform = GameObject.FindGameObjectWithTag("MainCamera").transform;
+        _playerInput.PlayerControls.Jump.started += onJump;
+        _playerInput.PlayerControls.Jump.canceled += onJump;
+        _cameraTransform = GameObject.FindGameObjectWithTag("MainCamera").transform;
+    }
+
+    void Update()
+    {
+        HandleMoveInput();
+        currentState.UpdateState();
+        HandleRotation();
+        _charController.Move(velocity * Time.deltaTime);
+
+        Debug.DrawRay(transform.position, transform.position + currentMovementInput, Color.cyan);
     }
 
     void HandleRotation()
     {
         Vector3 positionToLookAt;
 
-        positionToLookAt.x = currentMovement.x;
+        positionToLookAt.x = velocity.x;
         positionToLookAt.y = 0;
-        positionToLookAt.z = currentMovement.z;
+        positionToLookAt.z = velocity.z;
 
         Quaternion currentRotation = transform.rotation;
 
         if (movementPressed)
         {
             Quaternion targetRotation = Quaternion.LookRotation(positionToLookAt);
-            transform.rotation = Quaternion.Slerp(currentRotation, targetRotation, rotationFactorPerFrame * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(currentRotation, targetRotation, 20f * Time.deltaTime);
         }
-    }
-
-    void Update()
-    {
-        currentState.UpdateStates();
-        HandleMoveInput();
-        HandleRotation();
-        characterController.Move(appliedMovement * speed * Time.deltaTime);
     }
 
     void HandleMoveInput()
     {
         Vector3 _right = Camera.main.transform.right.normalized;
-        Vector3 _viewDir = (transform.position - new Vector3(_CameraTransform.position.x, transform.position.y, _CameraTransform.position.z)).normalized;
+        Vector3 _viewDir = (transform.position - new Vector3(_cameraTransform.position.x, transform.position.y, _cameraTransform.position.z)).normalized;
 
-        float _movementDirectionY = currentMovement.y;
-        currentMovement = (_viewDir * currentMovementInput.y + _right * currentMovementInput.x).normalized;
-        currentMovement.y = _movementDirectionY;
-
+        currentMovementInput = (_viewDir * _input.y + _right * _input.x).normalized;
     }
 
     void onMovementInput(InputAction.CallbackContext context)
     {
-        currentMovementInput = context.ReadValue<Vector2>();
-        movementPressed = currentMovementInput.x != 0 || currentMovementInput.y != 0;
+        _input = context.ReadValue<Vector2>();
+        movementPressed = _input.x != 0 || _input.y != 0;
     }
 
     void onSlide(InputAction.CallbackContext context)
@@ -117,13 +105,14 @@ public class SC_PlayerStateMachine : MonoBehaviour
 
     void onJump(InputAction.CallbackContext context)
     {
-        jumpPressed = context.ReadValueAsButton();
+        jumpPressed = context.ReadValueAsButton(); 
+        requireNewJumpPress = false;
     }
 
     //Activar y desactivar el input system
     void OnEnable()
-    { playerInput.PlayerControls.Enable(); }
+    { _playerInput.PlayerControls.Enable(); }
 
     void OnDisable()
-    { playerInput.PlayerControls.Disable(); }
+    { _playerInput.PlayerControls.Disable(); }
 }

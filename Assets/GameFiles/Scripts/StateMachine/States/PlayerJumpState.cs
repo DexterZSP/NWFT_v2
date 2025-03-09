@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerJumpState : PlayerBaseState
 {
+    float _jumpPower = 15f;
+    float _gravity = -20f;
+    float _airSmoothness = 4f;
+
     public PlayerJumpState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
-    : base(currentContext, playerStateFactory)
-    {
-        isRootState = true;
-        InitializeSubState();
-    }
+    : base(currentContext, playerStateFactory) { }
 
     public override void CheckSwitchStates()
     {
@@ -21,26 +24,30 @@ public class PlayerJumpState : PlayerBaseState
 
     public override void EnterState()
     {
-        HandleJump();
+        if(_context.jumpPressed)
+        {
+            _context.velocity.y = _jumpPower;
+        }
     }
 
     public override void ExitState()
     {
-        throw new System.NotImplementedException();
-    }
-
-    public override void InitializeSubState()
-    {
-        throw new System.NotImplementedException();
+        if (_context.jumpPressed)
+        {
+            _context.requireNewJumpPress = true;
+        }
     }
 
     public override void UpdateState()
     {
+        _context.airMove = _context.velocity / (_context.baseSpeed * _context.currentSpeedMultiplier);
+
+        _context.airMove = Vector3.Lerp(_context.airMove, _context.currentMovementInput, _airSmoothness * Time.deltaTime);
+        _context.airMove *= (_context.baseSpeed * _context.currentSpeedMultiplier);
+        _context.velocity = new Vector3(_context.airMove.x, _context.velocity.y, _context.airMove.z);
+        _context.velocity.y += (_gravity * Time.deltaTime);
+
         CheckSwitchStates();
     }
 
-    void HandleJump()
-    {
-
-    }
 }

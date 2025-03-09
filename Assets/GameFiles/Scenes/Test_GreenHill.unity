@@ -1348,11 +1348,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ded7b82f8d2e784a8e6a76dd5c4bbf0, type: 3}
---- !u!143 &53903679704491962 stripped
-CharacterController:
-  m_CorrespondingSourceObject: {fileID: 7220680045639658162, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
-  m_PrefabInstance: {fileID: 2346642378220482404}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2346642378220482404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1371,7 +1366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6954076223282252416, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.817
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 6954076223282252416, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1413,11 +1408,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 6930957838866336131}
   m_SourcePrefab: {fileID: 100100000, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
---- !u!95 &5193188762603131175 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7141239216063748958, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
-  m_PrefabInstance: {fileID: 2346642378220482404}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6930957838866336130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1673553915253117914, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
@@ -1435,11 +1425,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c951da9b0ed51840ab9b3369a4cd7ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterController: {fileID: 53903679704491962}
-  animator: {fileID: 5193188762603131175}
-  jumpPower: 0
-  gravity: -9.81
-  speed: 5
+  _charController: {fileID: 0}
+  currentMovementInput: {x: 0, y: 0, z: 0}
+  baseSpeed: 12
+  velocity: {x: 0, y: 0, z: 0}
+  currentSpeedMultiplier: 1
+  maxSpeedMultiplier: 5
+  minSpeedMultiplier: 0.3
+  movementPressed: 0
+  slidePressed: 0
+  jumpPressed: 0
+  requireNewJumpPress: 0
+  airMove: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

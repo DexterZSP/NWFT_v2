@@ -22,11 +22,6 @@ public class PlayerSlideState : PlayerBaseState
         throw new System.NotImplementedException();
     }
 
-    public override void InitializeSubState()
-    {
-        throw new System.NotImplementedException();
-    }
-
     public override void UpdateState()
     {
         throw new System.NotImplementedException();
