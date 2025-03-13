@@ -1,13 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class PlayerJumpState : PlayerBaseState
 {
-    float _jumpPower = 15f;
+
+    float _jumpPower = 11f;
     float _gravity = -20f;
     float _airSmoothness = 4f;
 
@@ -24,7 +22,9 @@ public class PlayerJumpState : PlayerBaseState
 
     public override void EnterState()
     {
-        if(_context.jumpPressed)
+        _context.animationState = 2;
+
+        if (_context.jumpPressed)
         {
             _context.velocity.y = _jumpPower;
         }

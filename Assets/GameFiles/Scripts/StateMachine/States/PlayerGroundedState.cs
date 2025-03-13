@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerGroundedState : PlayerBaseState
 {
+
     float acceletation = 3f;
 
     public PlayerGroundedState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
@@ -13,22 +14,28 @@ public class PlayerGroundedState : PlayerBaseState
     {
         if (_context.CharController.isGrounded == false || _context.jumpPressed && _context.requireNewJumpPress == false)
         {
+            _context.velocity.y = 0;
             SwitchState(_factory.Jump());
+        }
+        else if (_context.slidePressed) 
+        {
+            SwitchState(_factory.Slide());
         }
     }
 
     public override void EnterState()
     {
-
+        _context.animationState = 0;
     }
 
     public override void ExitState()
     {
-        _context.velocity.y = 0;
+        
     }
 
     public override void UpdateState()
     {
+        
         Vector3 i = new Vector3(_context.currentMovementInput.x, -3, _context.currentMovementInput.z);
 
         RaycastHit _groundHit;
@@ -39,7 +46,7 @@ public class PlayerGroundedState : PlayerBaseState
 
             if (angle > 0)
             {
-                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, _context.minSpeedMultiplier, angle / 45.0f * Time.deltaTime);
+                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, _context.minSpeedMultiplier, angle / 45.0f * 0.5f * Time.deltaTime);
             }
             else
             {
@@ -56,7 +63,7 @@ public class PlayerGroundedState : PlayerBaseState
 
             if (Vector3.Distance(_context.velocity, i) > 0.1f)
             {
-                _context.velocity = Vector3.Lerp(_context.velocity, i, Time.deltaTime * acceletation);
+                _context.velocity = Vector3.Lerp(_context.velocity, i, Time.deltaTime * 3f * acceletation);
             }
             else
             {

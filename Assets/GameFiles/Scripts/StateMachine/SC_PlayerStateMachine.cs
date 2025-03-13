@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
-using UnityEngine.Windows;
 using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class SC_PlayerStateMachine : MonoBehaviour
 {
     PlayerInput _playerInput;
     [SerializeField] CharacterController _charController;
+    [SerializeField] Animator _animator;
     public CharacterController CharController 
     { get { return _charController; } }
 
@@ -24,6 +23,7 @@ public class SC_PlayerStateMachine : MonoBehaviour
     public float currentSpeedMultiplier = 1;
     public float maxSpeedMultiplier = 5f;
     public float minSpeedMultiplier = 0.3f;
+    public int animationState;
 
     public bool movementPressed;
     public bool slidePressed;
@@ -62,6 +62,8 @@ public class SC_PlayerStateMachine : MonoBehaviour
         HandleMoveInput();
         currentState.UpdateState();
         HandleRotation();
+        _animator.SetInteger("state", animationState);
+        _animator.SetFloat("velocity", velocity.magnitude);
         _charController.Move(velocity * Time.deltaTime);
 
         Debug.DrawRay(transform.position, transform.position + currentMovementInput, Color.cyan);

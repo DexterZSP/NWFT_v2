@@ -3,19 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\sc_playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\sc_playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\player\\sc_player_movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\player\\sc_player_movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\legacy\\sc_newcharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\legacy\\sc_newcharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,16 +11,28 @@
       "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\statemachine\\sc_playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\sc_playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\sc_playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\sc_playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\legacy\\sc_newcharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\legacy\\sc_newcharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\player\\sc_player_movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\player\\sc_player_movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\sc_playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\sc_playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "SC_Player_MovementController.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
@@ -54,25 +54,23 @@
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T12:05:30.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T12:05:30.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SC_newCharacterMovement.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_newCharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Legacy\\SC_newCharacterMovement.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_newCharacterMovement.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\Legacy\\SC_newCharacterMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFUAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:00:59.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T09:00:59.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SC_PlayerStateFactory.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateFactory.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateFactory.cs",
@@ -80,70 +78,67 @@
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateFactory.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T16:11:33.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T16:11:33.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "PlayerBaseState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerBaseState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerBaseState.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerBaseState.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerBaseState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:21:06.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T15:21:06.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SC_PlayerStateMachine.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateMachine.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateMachine.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateMachine.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowFIAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwD4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:07:26.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T15:07:26.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "PlayerJumpState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerJumpState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerJumpState.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerJumpState.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerJumpState.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T15:34:55.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PlayerSlideState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerSlideState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerSlideState.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerSlideState.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerSlideState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T15:36:05.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerGroundedState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerGroundedState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerGroundedState.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerGroundedState.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerGroundedState.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowDIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T11:27:43.493Z",
               "EditorCaption": ""

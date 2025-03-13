@@ -149,6 +149,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1074688321963801051, guid: c6dcbe97cb4e9af4b9e2459d1792faa8, type: 3}
+--- !u!95 &67764256 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7141239216063748958, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
+  m_PrefabInstance: {fileID: 2346642378220482404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &83748030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _charController: {fileID: 0}
+  _animator: {fileID: 67764256}
   currentMovementInput: {x: 0, y: 0, z: 0}
   baseSpeed: 12
   velocity: {x: 0, y: 0, z: 0}
