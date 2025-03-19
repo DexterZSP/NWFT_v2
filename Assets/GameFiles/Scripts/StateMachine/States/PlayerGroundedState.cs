@@ -5,8 +5,6 @@ using UnityEngine;
 public class PlayerGroundedState : PlayerBaseState
 {
 
-    float acceletation = 3f;
-
     public PlayerGroundedState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
     : base(currentContext, playerStateFactory) { }
 
@@ -38,21 +36,7 @@ public class PlayerGroundedState : PlayerBaseState
         
         Vector3 i = new Vector3(_context.currentMovementInput.x, -3, _context.currentMovementInput.z);
 
-        RaycastHit _groundHit;
-        if (Physics.Raycast(_context.transform.position, Vector3.down, out _groundHit, 1.5f))
-        {
-            Vector3 groundNormal = _groundHit.normal;
-            float angle = Vector3.Angle(_context.transform.forward, groundNormal) - 90f;
-
-            if (angle > 0)
-            {
-                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, _context.minSpeedMultiplier, angle / 45.0f * 0.5f * Time.deltaTime);
-            }
-            else
-            {
-                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, 1.0f, acceletation * Time.deltaTime);
-            }
-        }
+        updateSpeedMultiplayer(3f, 0.4f, 0f);
 
         if (_context.movementPressed)
         {
@@ -63,7 +47,7 @@ public class PlayerGroundedState : PlayerBaseState
 
             if (Vector3.Distance(_context.velocity, i) > 0.1f)
             {
-                _context.velocity = Vector3.Lerp(_context.velocity, i, Time.deltaTime * 3f * acceletation);
+                _context.velocity = Vector3.Lerp(_context.velocity, i, Time.deltaTime * 3f);
             }
             else
             {

@@ -5,8 +5,6 @@ using UnityEngine;
 public class PlayerSlideState : PlayerBaseState
 {
 
-    float acceletation = 3f;
-
     public PlayerSlideState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
     : base(currentContext, playerStateFactory) { }
 
@@ -43,18 +41,7 @@ public class PlayerSlideState : PlayerBaseState
             Vector3 groundNormal = _groundHit.normal;
             float angle = Vector3.Angle(_context.transform.forward, groundNormal) - 90f;
 
-            if (angle > 0)
-            {
-                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, _context.minSpeedMultiplier, angle / 45.0f * 2f * Time.deltaTime);
-            }
-            else if (angle < 0)
-            {
-                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, _context.maxSpeedMultiplier, angle / 45.0f * 2f * Time.deltaTime);
-            }
-            else
-            {
-                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, 1.0f, acceletation * Time.deltaTime);
-            }
+            updateSpeedMultiplayer(3f, 2f, 2.2f);
         }
 
         _context.velocity = i * _context.baseSpeed * _context.currentSpeedMultiplier;

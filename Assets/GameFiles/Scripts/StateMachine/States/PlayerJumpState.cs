@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class PlayerJumpState : PlayerBaseState
 {
-
     float _jumpPower = 11f;
-    float _gravity = -20f;
-    float _airSmoothness = 4f;
 
     public PlayerJumpState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
     : base(currentContext, playerStateFactory) { }
@@ -30,6 +27,7 @@ public class PlayerJumpState : PlayerBaseState
         }
     }
 
+
     public override void ExitState()
     {
         if (_context.jumpPressed)
@@ -40,12 +38,7 @@ public class PlayerJumpState : PlayerBaseState
 
     public override void UpdateState()
     {
-        _context.airMove = _context.velocity / (_context.baseSpeed * _context.currentSpeedMultiplier);
-
-        _context.airMove = Vector3.Lerp(_context.airMove, _context.currentMovementInput, _airSmoothness * Time.deltaTime);
-        _context.airMove *= (_context.baseSpeed * _context.currentSpeedMultiplier);
-        _context.velocity = new Vector3(_context.airMove.x, _context.velocity.y, _context.airMove.z);
-        _context.velocity.y += (_gravity * Time.deltaTime);
+        HandleGravity(4f, -20f);
 
         CheckSwitchStates();
     }
