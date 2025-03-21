@@ -149,11 +149,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1074688321963801051, guid: c6dcbe97cb4e9af4b9e2459d1792faa8, type: 3}
---- !u!95 &67764256 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7141239216063748958, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
-  m_PrefabInstance: {fileID: 2346642378220482404}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,42 +563,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1673553915253117914, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6930957838866336131}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
---- !u!1 &6930957838866336130 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1673553915253117914, guid: 14f5739a922bfc4499b2e1db416c73ba, type: 3}
-  m_PrefabInstance: {fileID: 2346642378220482404}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6930957838866336131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6930957838866336130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c951da9b0ed51840ab9b3369a4cd7ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _charController: {fileID: 0}
-  _animator: {fileID: 67764256}
-  currentMovementInput: {x: 0, y: 0, z: 0}
-  baseSpeed: 12
-  velocity: {x: 0, y: 0, z: 0}
-  currentSpeedMultiplier: 1
-  maxSpeedMultiplier: 5
-  minSpeedMultiplier: 0.3
-  animationState: 0
-  movementPressed: 0
-  slidePressed: 0
-  jumpPressed: 0
-  requireNewJumpPress: 0
-  airMove: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

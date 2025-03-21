@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerJumpState : PlayerBaseState
 {
     float _jumpPower = 11f;
+    bool checkJump = false;
 
     public PlayerJumpState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
     : base(currentContext, playerStateFactory) { }
@@ -14,6 +15,21 @@ public class PlayerJumpState : PlayerBaseState
         if (_context.CharController.isGrounded)
         {
             SwitchState(_factory.Grounded());
+        }
+
+        if (checkJump == false && _context.jumpPressed == true)
+        {
+            SwitchState(_factory.DJump());
+            checkJump = true;
+        }
+        else if (checkJump == true && _context.jumpPressed == false)
+        {
+            checkJump = false; 
+        }
+
+        if (_context.slidePressed)
+        {
+            SwitchState(_factory.AirDash());
         }
     }
 
@@ -25,6 +41,7 @@ public class PlayerJumpState : PlayerBaseState
         {
             _context.velocity.y = _jumpPower;
         }
+        checkJump = _context.jumpPressed;
     }
 
 
@@ -38,7 +55,7 @@ public class PlayerJumpState : PlayerBaseState
 
     public override void UpdateState()
     {
-        HandleGravity(4f, -20f);
+        HandleGravity(6f, -20f);
 
         CheckSwitchStates();
     }

@@ -34,7 +34,7 @@ public abstract class PlayerBaseState
         _context.currentState = newState;
     }
 
-    protected void updateSpeedMultiplayer(float acceleration, float uphillFactor, float downhillFactor)
+    protected void updateSpeedMultiplayer(float acceleration, float deceleration, float uphillFactor, float downhillFactor)
     {
         RaycastHit _groundHit;
         if (Physics.Raycast(_context.transform.position, Vector3.down, out _groundHit, 1.5f))
@@ -52,7 +52,8 @@ public abstract class PlayerBaseState
             }
             else
             {
-                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, 1.0f, acceleration * Time.deltaTime);
+                float e = _context.currentSpeedMultiplier > 1f ? deceleration : acceleration;
+                _context.currentSpeedMultiplier = Mathf.Lerp(_context.currentSpeedMultiplier, 1f, e * Time.deltaTime);
             }
         }
     }
@@ -65,6 +66,9 @@ public abstract class PlayerBaseState
         _context.airMove *= (_context.baseSpeed * _context.currentSpeedMultiplier);
         _context.velocity = new Vector3(_context.airMove.x, _context.velocity.y, _context.airMove.z);
         _context.velocity.y += (gravity * Time.deltaTime);
+
+        if(_context.currentMovementInput.magnitude <= 0.1)
+        { _context.currentSpeedMultiplier = 1; }
     }
 
 }

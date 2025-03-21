@@ -11,6 +11,10 @@ public class SC_PlayerStateFactory
     { return new PlayerGroundedState(_context, this); }
     public PlayerBaseState Jump() 
     { return new PlayerJumpState(_context, this); }
+    public PlayerBaseState DJump()
+    { return new PlayerDJumpState(_context, this); }
     public PlayerBaseState Slide() 
     { return new PlayerSlideState(_context, this); }
+    public PlayerBaseState AirDash()
+    { return new PlayerAirDashState(_context, this); }
 }

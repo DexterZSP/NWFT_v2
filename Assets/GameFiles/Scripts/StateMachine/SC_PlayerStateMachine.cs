@@ -66,6 +66,7 @@ public class SC_PlayerStateMachine : MonoBehaviour
         Vector3 e = new Vector3(velocity.x, 0, velocity.z);
         _animator.SetFloat("moveVelocity", e.magnitude);
         _animator.SetFloat("verticalVelocity", velocity.y);
+        _animator.SetBool("movementPressed", movementPressed);
         _charController.Move(velocity * Time.deltaTime);
 
         Debug.DrawRay(transform.position, transform.position + currentMovementInput, Color.cyan);

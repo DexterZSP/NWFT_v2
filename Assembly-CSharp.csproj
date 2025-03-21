@@ -70,6 +70,7 @@
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerBaseState.cs" />
     <Compile Include="Assets\GameFiles\Scripts\Legacy\SC_AnimationManager.cs" />
     <Compile Include="Assets\GameFiles\Scripts\Legacy\SC_GraplingHook.cs" />
+    <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerDJumpState.cs" />
     <Compile Include="Assets\GameFiles\Scripts\Player\SC_Player_MovementController.cs" />
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerJumpState.cs" />
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerGroundedState.cs" />

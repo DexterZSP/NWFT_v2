@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerAirDashState : PlayerBaseState
 {
+    private float DashPower = 42f;
 
     public PlayerAirDashState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
     : base(currentContext, playerStateFactory) { }
@@ -18,15 +19,18 @@ public class PlayerAirDashState : PlayerBaseState
 
     public override void EnterState()
     {
-        _context.animationState = 2;
+        _context.animationState = 4;
+
+        if (_context.slidePressed)
+        {
+            _context.velocity = _context.currentMovementInput * DashPower;
+            _context.velocity.y = 6f;
+        }
     }
 
     public override void ExitState()
     {
-        if (_context.jumpPressed)
-        {
-            _context.requireNewJumpPress = true;
-        }
+        
     }
 
     public override void UpdateState()

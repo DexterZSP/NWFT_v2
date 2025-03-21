@@ -36,7 +36,8 @@ public class PlayerGroundedState : PlayerBaseState
         
         Vector3 i = new Vector3(_context.currentMovementInput.x, -3, _context.currentMovementInput.z);
 
-        updateSpeedMultiplayer(3f, 0.4f, 0f);
+        float e = _context.movementPressed ? 0 : 2;
+        updateSpeedMultiplayer(3f, e, 0.4f, 0.05f);
 
         if (_context.movementPressed)
         {

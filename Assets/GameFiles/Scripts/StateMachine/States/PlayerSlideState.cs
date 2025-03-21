@@ -41,7 +41,7 @@ public class PlayerSlideState : PlayerBaseState
             Vector3 groundNormal = _groundHit.normal;
             float angle = Vector3.Angle(_context.transform.forward, groundNormal) - 90f;
 
-            updateSpeedMultiplayer(3f, 2f, 2.2f);
+            updateSpeedMultiplayer(3f, 0f, 1f, 0.5f);
         }
 
         _context.velocity = i * _context.baseSpeed * _context.currentSpeedMultiplier;
