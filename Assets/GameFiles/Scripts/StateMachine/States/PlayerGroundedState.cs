@@ -45,7 +45,6 @@ public class PlayerGroundedState : PlayerBaseState
         }
         else
         {
-
             if (Vector3.Distance(_context.velocity, i) > 0.1f)
             {
                 _context.velocity = Vector3.Lerp(_context.velocity, i, Time.deltaTime * 3f);

@@ -25,6 +25,9 @@ public class PlayerAirDashState : PlayerBaseState
         {
             _context.velocity = _context.currentMovementInput * DashPower;
             _context.velocity.y = 6f;
+
+            if (_context.currentSpeedMultiplier < 1.2f)
+            { _context.currentSpeedMultiplier = 1.2f; }
         }
     }
 
