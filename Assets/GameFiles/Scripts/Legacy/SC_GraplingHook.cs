@@ -6,7 +6,6 @@ using UnityEngine.InputSystem.HID;
 public class SC_GraplingHook : MonoBehaviour
 {
     [SerializeField] private LineRenderer _lineRenderer;
-    [SerializeField] private SC_newCharacterMovement _character;
     [SerializeField] private LayerMask _grabLayer;
     [SerializeField] private float _grabForce = 5f;
 
@@ -19,8 +18,6 @@ public class SC_GraplingHook : MonoBehaviour
     {
         if (_lineRenderer == null)
         { _lineRenderer = gameObject.GetComponent<LineRenderer>(); }
-        if (_character == null)
-        { _character = gameObject.GetComponent<SC_newCharacterMovement>(); }
         
         _lineRenderer.positionCount = 2;
         _lineRenderer.enabled = false;
@@ -55,8 +52,5 @@ public class SC_GraplingHook : MonoBehaviour
         {
             _grabMovement = Vector3.zero;
         }
-
-        _character._grabMovement = _grabMovement;
-        _character._isGrabing = _isGrabing;
     }
 }
