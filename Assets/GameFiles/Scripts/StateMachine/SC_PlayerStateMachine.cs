@@ -27,6 +27,8 @@ public class SC_PlayerStateMachine : MonoBehaviour
 
     public bool movementPressed;
     public bool slidePressed;
+    public bool dashPressed;
+    public bool attackPressed;
     public bool jumpPressed = false;
     public bool requireNewJumpPress;
     public Vector3 airMove;
@@ -48,12 +50,22 @@ public class SC_PlayerStateMachine : MonoBehaviour
         _playerInput.PlayerControls.Move.performed += onMovementInput;
         _playerInput.PlayerControls.Move.canceled += onMovementInput;
 
-        //vincula a función que se ejecuta al deslizar
+        //vincula la función que se ejecuta al deslizar
         _playerInput.PlayerControls.Slide.performed += onSlide;
         _playerInput.PlayerControls.Slide.canceled += onSlide;
 
+        //vincula la función que se ejecuta al saltar
         _playerInput.PlayerControls.Jump.started += onJump;
         _playerInput.PlayerControls.Jump.canceled += onJump;
+
+        //vincula la función que se ejecuta al dashear
+        _playerInput.PlayerControls.Dash.started += onDash;
+        _playerInput.PlayerControls.Dash.canceled += onDash;
+
+        //vincula la función que se ejecuta al dashear
+        _playerInput.PlayerControls.Attack.started += onAttack;
+        _playerInput.PlayerControls.Attack.canceled += onAttack;
+
         _cameraTransform = GameObject.FindGameObjectWithTag("MainCamera").transform;
     }
 
@@ -106,6 +118,16 @@ public class SC_PlayerStateMachine : MonoBehaviour
     void onSlide(InputAction.CallbackContext context)
     {
         slidePressed = context.ReadValueAsButton();
+    }
+
+    void onDash(InputAction.CallbackContext context)
+    {
+        dashPressed = context.ReadValueAsButton();
+    }
+
+    void onAttack(InputAction.CallbackContext context)
+    {
+        attackPressed = context.ReadValueAsButton();
     }
 
     void onJump(InputAction.CallbackContext context)

@@ -21,7 +21,7 @@ public class PlayerAirDashState : PlayerBaseState
     {
         _context.animationState = 4;
 
-        if (_context.slidePressed)
+        if (_context.dashPressed)
         {
             _context.velocity = _context.currentMovementInput * DashPower;
             _context.velocity.y = 6f;

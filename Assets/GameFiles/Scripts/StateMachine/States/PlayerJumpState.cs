@@ -27,7 +27,7 @@ public class PlayerJumpState : PlayerBaseState
             checkJump = false; 
         }
 
-        if (_context.slidePressed)
+        if (_context.dashPressed)
         {
             SwitchState(_factory.AirDash());
         }

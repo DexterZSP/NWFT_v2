@@ -27,6 +27,12 @@ public class SC_BGMusic : MonoBehaviour
         backgroundAudioSource.playOnAwake = false; 
     }
 
+    private void Start()
+    {
+        if (backgroundMusic != null)
+        { PlayBackgroundMusic(); }
+    }
+
     public void PlayBackgroundMusic()
     {
         if (backgroundAudioSource != null && !backgroundAudioSource.isPlaying)
