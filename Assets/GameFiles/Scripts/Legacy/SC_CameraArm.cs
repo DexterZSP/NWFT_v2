@@ -3,10 +3,8 @@
  */
 
 using UnityEngine;
+using UnityEngine.InputSystem; // Asegúrate de usar el sistema de Input System.
 
-/// <summary>
-/// Controlador del brazo de la cámara.
-/// </summary>
 public class SC_CameraArm : MonoBehaviour
 {
     #region Variables Serializables
@@ -65,7 +63,7 @@ public class SC_CameraArm : MonoBehaviour
                 GameObject _InitialCamera = new GameObject("Camera Initial Transform");
                 _InitialCamera.transform.parent = transform;
                 _InitialCamera.transform.position = _CameraTransform.position;
-                _CameraInitialTransform = _InitialCamera.transform;       
+                _CameraInitialTransform = _InitialCamera.transform;
             }
 
             return;
@@ -94,13 +92,13 @@ public class SC_CameraArm : MonoBehaviour
             if (Physics.CapsuleCast(transform.position + (transform.up * 0.2f), transform.position + (transform.up * -0.2f), 0.05f, _cameraDirection, out _hit, _armLength, ~_playerLayer /* Ignoramos la colisión con el character */))
 
             {
-                if(_showCollisionDebug)
+                if (_showCollisionDebug)
                     Debug.DrawRay(transform.position, _cameraDirection * _armLength, Color.yellow);
                 _currentArmLength = Mathf.Lerp(_currentArmLength, Vector3.Distance(transform.position, _hit.point), Time.deltaTime * 30);
             }
             else
             {
-                if(_showCollisionDebug)
+                if (_showCollisionDebug)
                     Debug.DrawRay(transform.position, _cameraDirection * _armLength, Color.white);
                 _currentArmLength = Mathf.Lerp(_currentArmLength, _armLength, Time.deltaTime * _collisionRepositioningSpeed);
             }
@@ -109,7 +107,7 @@ public class SC_CameraArm : MonoBehaviour
         }
 
         // Actualizamos la rotación de la cámara
-        _rotationX += -Input.GetAxis("Mouse Y") * _sensitivity.y *Time.deltaTime;
+        _rotationX += -Input.GetAxis("Mouse Y") * _sensitivity.y * Time.deltaTime;
         _rotationX = Mathf.Clamp(_rotationX, _cameraMaxVerticalRotation.x, _cameraMaxVerticalRotation.y);
         _rotationY += Input.GetAxis("Mouse X") * _sensitivity.x * Time.deltaTime;
         transform.localRotation = Quaternion.Euler(_rotationX, _rotationY, 0);

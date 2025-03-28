@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\audio\\sc_bgmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\legacy\\sc_cameraarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\legacy\\sc_cameraarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\sc_playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\sc_playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\sc_playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\sc_playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\audio\\sc_bgmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\audio\\sc_bgmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerairdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerairdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|c:\\users\\dexte\\documents\\github\\nwft_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerdjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerdjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\sc_playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\sc_playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerairdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerairdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerdjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerdjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\enemies\\sc_basicenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,14 +55,6 @@
       "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\sc_playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\sc_playerstatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\assets\\gamefiles\\scripts\\statemachine\\states\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EAE0C9A-8693-C6EA-EECC-38E0C481E59B}|Assembly-CSharp.csproj|solutionrelative:assets\\gamefiles\\scripts\\statemachine\\states\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,22 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SC_AnimationManager.cs",
-              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_AnimationManager.cs",
-              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Legacy\\SC_AnimationManager.cs",
-              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_AnimationManager.cs",
-              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\Legacy\\SC_AnimationManager.cs",
+              "DocumentIndex": 0,
+              "Title": "SC_CameraArm.cs",
+              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_CameraArm.cs",
+              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Legacy\\SC_CameraArm.cs",
+              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_CameraArm.cs",
+              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\Legacy\\SC_CameraArm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:38:39.898Z"
+              "WhenOpened": "2025-03-28T07:20:01.42Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "SC_GraplingHook.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_GraplingHook.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Legacy\\SC_GraplingHook.cs",
@@ -97,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "PlayerDJumpState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerDJumpState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerDJumpState.cs",
@@ -105,12 +111,11 @@
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerDJumpState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:54:42.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T15:54:42.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PlayerAirDashState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerAirDashState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerAirDashState.cs",
@@ -118,12 +123,11 @@
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerAirDashState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T10:51:34.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T10:51:34.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "SC_PlayerStateFactory.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateFactory.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateFactory.cs",
@@ -131,35 +135,38 @@
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateFactory.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwA4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T16:11:33.583Z"
+              "WhenOpened": "2025-03-07T16:11:33.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "PlayerBaseState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerBaseState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerBaseState.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerBaseState.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerBaseState.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwD8AAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:21:06.226Z"
+              "WhenOpened": "2025-03-06T15:21:06.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "SC_PlayerStateMachine.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateMachine.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateMachine.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\SC_PlayerStateMachine.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwD4AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:07:26.32Z"
+              "WhenOpened": "2025-03-06T15:07:26.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SC_BGMusic.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Audio\\SC_BGMusic.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Audio\\SC_BGMusic.cs",
@@ -172,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "SC_BasicEnemy.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Enemies\\SC_BasicEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Enemies\\SC_BasicEnemy.cs",
@@ -184,19 +191,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerJumpState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerJumpState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerJumpState.cs",
               "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerJumpState.cs",
               "RelativeToolTip": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerJumpState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:34:55.105Z"
+              "WhenOpened": "2025-03-06T15:34:55.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "SC_AnimationManager.cs",
+              "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_AnimationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Legacy\\SC_AnimationManager.cs",
+              "ToolTip": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Legacy\\SC_AnimationManager.cs",
+              "RelativeToolTip": "Assets\\GameFiles\\Scripts\\Legacy\\SC_AnimationManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:38:39.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SC_AudioPlayer.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Audio\\SC_AudioPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Audio\\SC_AudioPlayer.cs",
@@ -208,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "PlayerSlideState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerSlideState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerSlideState.cs",
@@ -220,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PlayerGroundedState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerGroundedState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerGroundedState.cs",
@@ -232,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SC_Player_MovementController.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\Player\\SC_Player_MovementController.cs",
@@ -244,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PlayerFreeFallState.cs",
               "DocumentMoniker": "C:\\Users\\dexte\\Documents\\GitHub\\NWFT_v2\\Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerFreeFallState.cs",
               "RelativeDocumentMoniker": "Assets\\GameFiles\\Scripts\\StateMachine\\States\\PlayerFreeFallState.cs",

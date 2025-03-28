@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEditor.Timeline.TimelinePlaybackControls;
@@ -24,6 +25,7 @@ public class SC_PlayerStateMachine : MonoBehaviour
     public float maxSpeedMultiplier = 5f;
     public float minSpeedMultiplier = 0.3f;
     public int animationState;
+    public LayerMask wallLayer;
 
     public bool movementPressed;
     public bool slidePressed;

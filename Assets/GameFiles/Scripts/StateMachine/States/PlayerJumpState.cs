@@ -6,6 +6,7 @@ public class PlayerJumpState : PlayerBaseState
 {
     float _jumpPower = 11f;
     bool checkJump = false;
+    float airSmoothness = 6f;
 
     public PlayerJumpState(SC_PlayerStateMachine currentContext, SC_PlayerStateFactory playerStateFactory)
     : base(currentContext, playerStateFactory) { }
@@ -19,7 +20,17 @@ public class PlayerJumpState : PlayerBaseState
 
         if (checkJump == false && _context.jumpPressed == true)
         {
-            SwitchState(_factory.DJump());
+            RaycastHit hit;
+            // Detecta una pared frente al personaje
+            if (Physics.Raycast(_context.transform.position, _context.transform.forward, out hit, 1f, _context.wallLayer))
+            {
+                Vector3 jumpDirection = Vector3.up * 10 - _context.transform.forward * 6;
+                _context.velocity = jumpDirection;
+                airSmoothness = 0.8f;
+            }
+            else 
+            { SwitchState(_factory.DJump()); }
+            
             checkJump = true;
         }
         else if (checkJump == true && _context.jumpPressed == false)
@@ -42,6 +53,7 @@ public class PlayerJumpState : PlayerBaseState
             _context.velocity.y = _jumpPower;
         }
         checkJump = _context.jumpPressed;
+        airSmoothness = 6f;
     }
 
 
@@ -55,7 +67,7 @@ public class PlayerJumpState : PlayerBaseState
 
     public override void UpdateState()
     {
-        HandleGravity(6f, -20f);
+        HandleGravity(airSmoothness, -20f);
 
         CheckSwitchStates();
     }
