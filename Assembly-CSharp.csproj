@@ -65,6 +65,7 @@
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerAirDashState.cs" />
     <Compile Include="Assets\GameFiles\Scripts\Audio\SC_AudioPlayer.cs" />
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerSlideState.cs" />
+    <Compile Include="Assets\GameFiles\Scripts\Hud\SC_PlayerHUD.cs" />
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerBaseState.cs" />
     <Compile Include="Assets\GameFiles\Scripts\Enemies\SC_BasicEnemy.cs" />
     <Compile Include="Assets\GameFiles\Scripts\Legacy\SC_GraplingHook.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerGroundedState.cs" />
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\SC_PlayerStateMachine.cs" />
     <Compile Include="Assets\GameFiles\Scripts\StateMachine\SC_PlayerStateFactory.cs" />
+    <Compile Include="Assets\GameFiles\Scripts\StateMachine\States\PlayerGrabbedState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

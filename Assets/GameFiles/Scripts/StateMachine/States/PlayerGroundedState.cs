@@ -10,6 +10,11 @@ public class PlayerGroundedState : PlayerBaseState
 
     public override void CheckSwitchStates()
     {
+        if(_context.isHooked)
+        {
+            SwitchState(_factory.Grabbed());
+        }
+        
         if (_context.CharController.isGrounded == false || _context.jumpPressed && _context.requireNewJumpPress == false)
         {
             _context.velocity.y = 0;

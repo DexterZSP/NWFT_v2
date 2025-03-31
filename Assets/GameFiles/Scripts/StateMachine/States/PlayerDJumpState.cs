@@ -17,6 +17,11 @@ public class PlayerDJumpState : PlayerBaseState
             SwitchState(_factory.Grounded());
         }
 
+        if (_context.isHooked)
+        {
+            SwitchState(_factory.Grabbed());
+        }
+
         if (checkJump == false && _context.jumpPressed == true)
         {
             checkJump = true;

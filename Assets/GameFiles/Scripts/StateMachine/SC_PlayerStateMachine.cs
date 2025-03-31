@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.FullSerializer;
@@ -10,6 +11,7 @@ public class SC_PlayerStateMachine : MonoBehaviour
     PlayerInput _playerInput;
     [SerializeField] CharacterController _charController;
     [SerializeField] Animator _animator;
+    [SerializeField] float _maxHookDistace;
     public CharacterController CharController 
     { get { return _charController; } }
 
@@ -18,19 +20,27 @@ public class SC_PlayerStateMachine : MonoBehaviour
 
     Transform _cameraTransform;
     Vector2 _input;
+    public int maxHP;
+    public int currentHP;
     public Vector3 currentMovementInput;
     public float baseSpeed = 8;
     public Vector3 velocity;
+    public Vector3 hookPoint;
     public float currentSpeedMultiplier = 1;
     public float maxSpeedMultiplier = 5f;
     public float minSpeedMultiplier = 0.3f;
     public int animationState;
     public LayerMask wallLayer;
+    public LayerMask grabLayer;
+    public bool bumpingIntoWall;
+    public LineRenderer hookLine;
+    public bool isHooked;
 
     public bool movementPressed;
     public bool slidePressed;
     public bool dashPressed;
     public bool attackPressed;
+    public bool grabPressed;
     public bool jumpPressed = false;
     public bool requireNewJumpPress;
     public Vector3 airMove;
@@ -43,6 +53,8 @@ public class SC_PlayerStateMachine : MonoBehaviour
 
         _playerInput = new PlayerInput();
         _charController = GetComponent<CharacterController>();
+        hookLine = GetComponent<LineRenderer>();
+        hookLine.enabled = false;
         _states = new SC_PlayerStateFactory(this);
         currentState = _states.Grounded();
         currentState.EnterState();
@@ -64,15 +76,20 @@ public class SC_PlayerStateMachine : MonoBehaviour
         _playerInput.PlayerControls.Dash.started += onDash;
         _playerInput.PlayerControls.Dash.canceled += onDash;
 
-        //vincula la función que se ejecuta al dashear
+        //vincula la función que se ejecuta al atacar
         _playerInput.PlayerControls.Attack.started += onAttack;
         _playerInput.PlayerControls.Attack.canceled += onAttack;
+
+        //vincula la función que se ejecuta al lanzar el gancho
+        _playerInput.PlayerControls.Grab.started += onGrab;
+        _playerInput.PlayerControls.Grab.canceled += onGrab;
 
         _cameraTransform = GameObject.FindGameObjectWithTag("MainCamera").transform;
     }
 
     void Update()
     {
+        bumpingIntoWall = WallDetect();
         HandleMoveInput();
         currentState.UpdateState();
         HandleRotation();
@@ -81,9 +98,30 @@ public class SC_PlayerStateMachine : MonoBehaviour
         _animator.SetFloat("moveVelocity", e.magnitude);
         _animator.SetFloat("verticalVelocity", velocity.y);
         _animator.SetBool("movementPressed", movementPressed);
+        _animator.SetBool("bumpingIntoWall", bumpingIntoWall);
         _charController.Move(velocity * Time.deltaTime);
 
+        MoveToHookPoint();
+
         Debug.DrawRay(transform.position, transform.position + currentMovementInput, Color.cyan);
+    }
+
+    void MoveToHookPoint()
+    {
+        // Actualizar la línea del rayo
+        hookLine.SetPosition(0, transform.position);
+        hookLine.SetPosition(1, hookPoint);
+    }
+
+    private bool WallDetect()
+    {
+        RaycastHit hit;
+        // Detecta una pared frente al personaje
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 1f, wallLayer))
+        {
+            return true;
+        }
+        else { return false; }
     }
 
     void HandleRotation()
@@ -96,7 +134,7 @@ public class SC_PlayerStateMachine : MonoBehaviour
 
         Quaternion currentRotation = transform.rotation;
 
-        if (movementPressed)
+        if (movementPressed || isHooked)
         {
             Quaternion targetRotation = Quaternion.LookRotation(positionToLookAt);
             transform.rotation = Quaternion.Slerp(currentRotation, targetRotation, 20f * Time.deltaTime);
@@ -109,6 +147,25 @@ public class SC_PlayerStateMachine : MonoBehaviour
         Vector3 _viewDir = (transform.position - new Vector3(_cameraTransform.position.x, transform.position.y, _cameraTransform.position.z)).normalized;
 
         currentMovementInput = (_viewDir * _input.y + _right * _input.x).normalized;
+    }
+
+    void FireRay()
+    {
+        if(grabPressed)
+        {
+            RaycastHit hit;
+            Vector3 direction = _cameraTransform.forward;
+            if (Physics.Raycast(_cameraTransform.position, direction, out hit, _maxHookDistace, grabLayer))
+            {
+                hookPoint = hit.point;  // Guardar el punto de enganche
+                if (Vector3.Distance(transform.position, hookPoint) > 1.2f && !slidePressed)
+                { isHooked = true; }
+            }
+        }
+        else
+        {
+            isHooked = false;
+        }
     }
 
     void onMovementInput(InputAction.CallbackContext context)
@@ -130,6 +187,12 @@ public class SC_PlayerStateMachine : MonoBehaviour
     void onAttack(InputAction.CallbackContext context)
     {
         attackPressed = context.ReadValueAsButton();
+    }
+
+    void onGrab(InputAction.CallbackContext context)
+    {
+        grabPressed = context.ReadValueAsButton();
+        FireRay();
     }
 
     void onJump(InputAction.CallbackContext context)

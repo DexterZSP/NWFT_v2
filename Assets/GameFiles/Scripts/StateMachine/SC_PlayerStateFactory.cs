@@ -17,4 +17,7 @@ public class SC_PlayerStateFactory
     { return new PlayerSlideState(_context, this); }
     public PlayerBaseState AirDash()
     { return new PlayerAirDashState(_context, this); }
+
+    public PlayerBaseState Grabbed()
+    { return new PlayerGrabbedState(_context, this); }
 }

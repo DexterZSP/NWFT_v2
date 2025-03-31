@@ -18,11 +18,15 @@ public class PlayerJumpState : PlayerBaseState
             SwitchState(_factory.Grounded());
         }
 
+        if (_context.isHooked)
+        {
+            SwitchState(_factory.Grabbed());
+        }
+
         if (checkJump == false && _context.jumpPressed == true)
         {
-            RaycastHit hit;
-            // Detecta una pared frente al personaje
-            if (Physics.Raycast(_context.transform.position, _context.transform.forward, out hit, 1f, _context.wallLayer))
+            
+            if (_context.bumpingIntoWall)
             {
                 Vector3 jumpDirection = Vector3.up * 10 - _context.transform.forward * 6;
                 _context.velocity = jumpDirection;
@@ -67,7 +71,9 @@ public class PlayerJumpState : PlayerBaseState
 
     public override void UpdateState()
     {
-        HandleGravity(airSmoothness, -20f);
+        float g =  _context.bumpingIntoWall ? -10f : -20f;
+
+        HandleGravity(airSmoothness, g);
 
         CheckSwitchStates();
     }
