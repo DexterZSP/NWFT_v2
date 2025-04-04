@@ -40,6 +40,7 @@ public class PlayerDJumpState : PlayerBaseState
     public override void EnterState()
     {
         _context.animationState = 3;
+        _context.audioPlayer.PlaySound(SoundEffect.DoubleJump);
 
         if (_context.jumpPressed)
         {

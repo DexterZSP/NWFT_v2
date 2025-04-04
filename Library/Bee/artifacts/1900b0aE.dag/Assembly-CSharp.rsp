@@ -364,7 +364,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/GameFiles/Controls/PlayerInput.cs"
-"Assets/GameFiles/Scripts/Audio/SC_AudioPlayer.cs"
+"Assets/GameFiles/Scripts/Audio/SC_AudioPlayer_Player.cs"
 "Assets/GameFiles/Scripts/Audio/SC_BGMusic.cs"
 "Assets/GameFiles/Scripts/Enemies/SC_BasicEnemy.cs"
 "Assets/GameFiles/Scripts/Hud/SC_PlayerHUD.cs"

@@ -28,6 +28,7 @@ public class PlayerJumpState : PlayerBaseState
             
             if (_context.bumpingIntoWall)
             {
+                _context.audioPlayer.PlaySound(SoundEffect.WallJump);
                 Vector3 jumpDirection = Vector3.up * 10 - _context.transform.forward * 6;
                 _context.velocity = jumpDirection;
                 airSmoothness = 0.8f;
@@ -54,6 +55,7 @@ public class PlayerJumpState : PlayerBaseState
 
         if (_context.jumpPressed)
         {
+            _context.audioPlayer.PlaySound(SoundEffect.Jump);
             _context.velocity.y = _jumpPower;
         }
         checkJump = _context.jumpPressed;

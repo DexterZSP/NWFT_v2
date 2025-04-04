@@ -12,6 +12,7 @@ public class SC_PlayerStateMachine : MonoBehaviour
     [SerializeField] CharacterController _charController;
     [SerializeField] Animator _animator;
     [SerializeField] float _maxHookDistace;
+    public SC_AudioPlayer_Player audioPlayer;
     public CharacterController CharController 
     { get { return _charController; } }
 
