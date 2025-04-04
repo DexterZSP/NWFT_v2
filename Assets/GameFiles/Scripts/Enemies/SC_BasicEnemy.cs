@@ -17,6 +17,7 @@ public class SC_BasicEnemy : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         originPoint = transform.position; // Guardar el punto de origen
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     void Update()
