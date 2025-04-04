@@ -72,8 +72,9 @@ public abstract class PlayerBaseState
         _context.airMove *= (_context.baseSpeed * _context.currentSpeedMultiplier);
         _context.velocity = new Vector3(_context.airMove.x, _context.velocity.y, _context.airMove.z);
         _context.velocity.y += (gravity * Time.deltaTime);
+        _context.velocity.y = Mathf.Clamp(_context.velocity.y, -65, 20);
 
-        if(_context.currentMovementInput.magnitude <= 0.1)
+        if (_context.currentMovementInput.magnitude <= 0.1)
         { _context.currentSpeedMultiplier = 1; }
     }
 

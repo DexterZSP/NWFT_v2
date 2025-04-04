@@ -23,6 +23,7 @@ public class PlayerAirDashState : PlayerBaseState
 
         if (_context.dashPressed)
         {
+            _context.audioPlayer.PlaySound(SoundEffect.Dash);
             _context.velocity = _context.currentMovementInput * DashPower;
             _context.velocity.y = 6f;
 

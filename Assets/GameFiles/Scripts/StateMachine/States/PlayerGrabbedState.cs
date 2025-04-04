@@ -26,6 +26,7 @@ public class PlayerGrabbedState : PlayerBaseState
 
     public override void EnterState()
     {
+        _context.audioPlayer.PlaySound(SoundEffect.Grapling);
         _context.animationState = 6;
         _context.hookLine.enabled = true;
         prevPos = _context.transform.position;
