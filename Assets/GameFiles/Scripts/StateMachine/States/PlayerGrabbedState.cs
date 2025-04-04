@@ -40,7 +40,7 @@ public class PlayerGrabbedState : PlayerBaseState
     public override void UpdateState()
     {
         Vector3 direction = (_context.hookPoint - _context.transform.position).normalized;
-        Vector3 movement = direction * _context.currentSpeedMultiplier * 20f;
+        Vector3 movement = direction * _context.currentSpeedMultiplier * 80f;
 
         float e = _context.transform.position.y - prevPos.y;
         _context.currentSpeedMultiplier += e * Time.deltaTime;

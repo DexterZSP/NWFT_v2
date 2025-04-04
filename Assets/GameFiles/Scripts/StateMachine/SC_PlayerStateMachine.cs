@@ -45,6 +45,8 @@ public class SC_PlayerStateMachine : MonoBehaviour
     public bool requireNewJumpPress;
     public Vector3 airMove;
 
+    public GameObject UIText;
+
     void Awake()
     {
         // Configuramos el ratón para que se haga invisible y no se salga de la pantalla
@@ -207,4 +209,9 @@ public class SC_PlayerStateMachine : MonoBehaviour
 
     void OnDisable()
     { _playerInput.PlayerControls.Disable(); }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
 }

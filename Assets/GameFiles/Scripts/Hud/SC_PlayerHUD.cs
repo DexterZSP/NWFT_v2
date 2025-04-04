@@ -7,10 +7,12 @@ public class SC_PlayerHUD : MonoBehaviour
 {
     public Image healthImage;
     public SC_PlayerStateMachine player;
+    public GameObject tutorialText;
 
     void Update()
     {
         healthImage.fillAmount = (float)player.currentHP / (float)player.maxHP;
     }
+
 }
 
